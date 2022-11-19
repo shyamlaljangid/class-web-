@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    |
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    font-size: 20px;
+    background-color: rgb(250, 106, 23);
+    padding: 0px 20px;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 3px;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 0 40px;
+    border-left: 1px solid;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+header h1 {
+    font-size: 30px;
+}
+
+span {
+    color: #fff;
+}
+
+.section {
+    background-image: url(images/highrise.webp);
+    height: 300px;
+}
+
+.text {
+    background-color: rgb(250, 106, 23);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 50%;
+}
+
+.boxes {
+    display: flex;
+    position: absolute;
+    top: -80px;
+}
+
+
+
+.box {
+    border-radius: 10px;
+    padding: 40px 18px;
+    background-color: #fff;
+    margin: 0 1%;
+    width: 32%;
+}
+
+.boxes .box .icon {
+    position: relative;
+}
+
+.boxes .box .icon i {
+    font-size: 3rem;
+    background-color: rgb(175, 57, 24);
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+    top: -80px;
+}
+
+
+/* .two{
+    display: flex;
+    align-items: center;
+} */
+.boxes .box p {
+    margin-top: 1rem;
+}
+
+.two {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px 40px;
+    position: relative;
+}
+
+.two ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 70px;
+}
+
+.two ul li {
+    padding: 5px;
+    width: 120px;
+    margin: 10px;
+   
+    color: black;
+    background-color: #fff;
+}
+
+.left {
+    margin-top: 25px;
+}
+
+.right p {
+
+    text-align: left;
+    padding: 10px;
+    margin: 5px 50px;
+    left: 20px;
+}
+
+.right {
+    margin-top: 20px;
+    border-left: 1px solid;
+}
+
+section {
+    text-align: center;
+}
+
+.hed h1 {
+    color: #fff;
+    padding: 20px;
+    background-color: rgb(138, 180, 199);
+    background-image: url(images/highrise.webp);
+}
+
+.hed p {
+    padding: 10px 10px 10px 52px;
+    padding-left: 250px;
+    align-items: right;
+    text-align: left;
+}
+
+.center h1 {
+    color: #fff;
+    padding: 20px;
+    background-color: rgb(139, 169, 184);
+    background-image: url(images/highrise.webp);
+}
+
+.center p {
+    padding: 10px;
+    padding-right: 300px;
+    align-items: right;
+    text-align: left;
+}
+
+.bottom h1 {
+    color: #fff;
+    padding: 20px;
+    background-color: rgb(139, 169, 184);
+    background-image: url(images/highrise.webp);
+}
+
+.bottom p {
+    padding: 10px 10px 10px 52px;
+    padding-left: 250px;
+    align-items: right;
+    text-align: left;
+}
+
+.hed {
+    position: relative;
+}
+
+.hed i {
+    position: absolute;
+    left: 7%;
+    bottom: 150px;
+    font-size: 70px;
+    background-color: #f00;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+}
+
+.center {
+    position: relative;
+}
+
+.center i {
+    position: absolute;
+    right: 9%;
+    bottom: 150px;
+    font-size: 70px;
+    background-color: #f00;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+}
+
+.bottom {
+    position: relative;
+}
+
+.bottom i {
+    position: absolute;
+    left: 8%;
+    bottom: 150px;
+    font-size: 70px;
+    background-color: #f00;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+}
